@@ -1,0 +1,26 @@
+{
+  "name": "pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jquery": "^3.3.1",
+    "pdf2pic": "^1.2.6",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack/webpack.config.js",
+    "server": "webpack --config ./webpack/webpack.config.js && node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
